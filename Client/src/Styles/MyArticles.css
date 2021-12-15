@@ -1,0 +1,36 @@
+.MyArticlesFirstSection{
+    height: 500px;
+    width: 100%;
+    background-image: url(../Pics/wall5.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+
+.custom-shape-divider-bottom-1639589034 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1639589034 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 101px;
+}
+
+.custom-shape-divider-bottom-1639589034 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+.MyArticlesAlert{
+    color: gray;
+    margin: 55px 10px;
+}

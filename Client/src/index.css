@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  transition: .3s all linear;
+  -webkit-transition: .3s all linear;
+  -moz-transition: .3s all linear;
+  -ms-transition: .3s all linear;
+  -o-transition: .3s all linear;
+  overflow-x: hidden;
+}
+
+
+@keyframes NotiAnime {
+  from{
+    opacity: 0;
+  }to{
+    opacity: 1;
+  }
+}
+
+
+.NotificationContainer{
+  position: sticky;
+  top: 55px;
+  z-index: 6;
+}
+
+.InnerNotification{
+  position: absolute;
+  top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Error{
+  display: flex;
+  background-color: #FFFFFF;
+  margin-left: 15px;
+  position: relative;
+  animation: NotiAnime .3s forwards ease-in;
+  -webkit-animation: NotiAnime .3s forwards ease-in;
+  box-shadow: 0px 0px 5px gray;
+}
+
+.Success{
+  display: flex;
+  background-color: #FFFFFF;
+  margin-left: 15px;
+  position: relative;
+  animation: NotiAnime .3s forwards ease-in;
+  -webkit-animation: NotiAnime .3s forwards ease-in;
+  box-shadow: 0px 0px 5px gray;
+}
+
+
+
+.ErrorI{
+  display: flex;
+  align-items: center;
+  background-color: #FFD9D8;
+  width: 25px;
+  justify-content: center;
+}
+
+.SuccessI{
+  display: flex;
+  align-items: center;
+  background-color: #DFFFD9;
+  width: 25px;
+  justify-content: center;
+}
+
+
+.ErrorI i{
+  color: #974543;
+}
+
+.SuccessI i{
+  color: #7EAF6F;
+}
+
+.ErrorText{
+  padding: 15px;
+}
+
+.SuccessText{
+  padding: 15px;
+}
+
+.ErrorText h4{
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+}
+
+.SuccessText h4{
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+}
+
+.ErrorText span{
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  color: gray;
+}
+
+.SuccessText span{
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  color: gray;
+}
+
+.closePopError{
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  color: rgb(211, 211, 211);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.closePopSuccess{
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  color: rgb(211, 211, 211);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.PopNotification{
+  position: absolute;
+  width: 100%;
+  top: 55px;
+}
+

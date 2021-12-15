@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.FirstSection{
+    height: 500px;
+    width: 100%;
+    background-image: url(../Pics/wall2.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+
+.IntroFrontLinear{
+    background-image: linear-gradient(to right, #281483, #4a1c4b);
+    height: 500px;
+    width: 100%;
+    opacity: .7;
+    position: absolute;
+    top: 0;
+}
+
+.Bubble{
+    height: 100px;
+    position: absolute;
+    width: 100px;
+    background-color: white;
+    top: 100px;
+    left: 30px;
+    border-radius: 30% 50% 72% 50%;
+    -webkit-border-radius: 30% 50% 72% 50%;
+    -moz-border-radius: 30% 50% 72% 50%;
+    -ms-border-radius: 30% 50% 72% 50%;
+    -o-border-radius: 30% 50% 72% 50%;
+    opacity: .1;
+}
+
+
+.Bubble2{
+    height: 100px;
+    position: absolute;
+    width: 100px;
+    background-color: white;
+    bottom: 100px;
+    right: 30px;
+    border-radius: 30% 50% 72% 50%;
+    -webkit-border-radius: 30% 50% 72% 50%;
+    -moz-border-radius: 30% 50% 72% 50%;
+    -ms-border-radius: 30% 50% 72% 50%;
+    -o-border-radius: 30% 50% 72% 50%;
+    opacity: .1;
+}
+
+.Bubble3{
+    height: 50px;
+    position: absolute;
+    width: 50px;
+    background-color: white;
+    top: 30%;
+    right: 33%;
+    border-radius: 30% 50% 72% 50%;
+    -webkit-border-radius: 30% 50% 72% 50%;
+    -moz-border-radius: 30% 50% 72% 50%;
+    -ms-border-radius: 30% 50% 72% 50%;
+    -o-border-radius: 30% 50% 72% 50%;
+    opacity: .1;
+}
+
+
+.Bubble4{
+    height: 50px;
+    position: absolute;
+    width: 50px;
+    background-color: white;
+    top: 70%;
+    right: 73%;
+    border-radius: 30% 50% 72% 50%;
+    -webkit-border-radius: 30% 50% 72% 50%;
+    -moz-border-radius: 30% 50% 72% 50%;
+    -ms-border-radius: 30% 50% 72% 50%;
+    -o-border-radius: 30% 50% 72% 50%;
+    opacity: .1;
+}
+
+
+.Bubble5{
+    height: 70px;
+    position: absolute;
+    width: 70px;
+    background-color: white;
+    top: 20%;
+    right: 63%;
+    border-radius: 30% 50% 72% 50%;
+    -webkit-border-radius: 30% 50% 72% 50%;
+    -moz-border-radius: 30% 50% 72% 50%;
+    -ms-border-radius: 30% 50% 72% 50%;
+    -o-border-radius: 30% 50% 72% 50%;
+    opacity: .1;
+}
+
+
+.custom-shape-divider-bottom-1639301821 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1639301821 svg {
+    position: relative;
+    display: block;
+    width: calc(161% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1639301821 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+.SectionInfo h1{
+    font-size: 40px;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.SectionInfo{
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    height: inherit;
+    margin-top: -100px;
+    text-align: center;
+}
+
+
+.SectionInfo p{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.SectionInfo a{
+    margin-top: 45px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-color: #530ba5;
+    padding: 10px 20px;
+    outline: none;
+    transition: .3s all linear;
+    -webkit-transition: .3s all linear;
+    -moz-transition: .3s all linear;
+    -ms-transition: .3s all linear;
+    -o-transition: .3s all linear;
+}
+
+.SectionInfo a:hover{
+    color: black;
+    background-color: white;
+}
+
+.Card{
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+    width: 300px;
+    align-items: center;
+    height: 165px;
+    justify-content: space-between;
+
+    padding: 10px 0px;
+}
+
+.Card p{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(71, 71, 71);
+    margin: 0px 5px 10px 5px;
+    text-align: center;
+}
+
+.Card i{
+    font-size: 35px;
+    color: #9847f5;
+}
+
+.Card h3{
+    font-family: 'Noto Sans Display', sans-serif;
+    margin: 10px 0px;
+}
+
+.SectionTwo{
+    margin: 35px;
+}
+
+.CardBar{
+    height: 2px;
+    background-image: linear-gradient(to right, #281483, #4a1c4b);
+    width: 0%;
+    margin: 3px 0px;
+    opacity: 0;
+}
+
+.Card:hover #CardBarId{
+    transition: .4s ease-in;
+    -webkit-transition: .4s ease-in;
+    -moz-transition: .4s ease-in;
+    -ms-transition: .4s ease-in;
+    -o-transition: .4s ease-in;
+    width: 100%;
+    opacity: 1;
+}
+
+
+.SectionTwo{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.SectionThree{
+    background-color: #F9F9F9;
+    padding: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Quotation{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.InnerQuote{
+    background-color: white;
+    width: 450px;
+    padding: 20px;
+    filter: drop-shadow(0 0 0.20rem gray);
+    -webkit-filter: drop-shadow(0 0 0.20rem gray);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+}
+
+.InnerQuote p{
+    font-family: 'Noto Sans Display', sans-serif;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+    font-size: 15px;
+    
+}
+
+.InnerQuote i{
+    position: relative;
+    top: -35px;
+    font-size: 35px;
+    color: #9847f5;
+}
+
+.Author{
+    margin: 0px 0px 25px 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 25px solid white;
+    position: absolute;
+    bottom: -24px;
+    left: 50px;
+    z-index: 2;
+  }
+
+
+  @media (max-width: 499px) {
+      .SectionInfo h1{
+          font-size: 30px;
+      }
+      .SectionInfo p{
+          font-size: 15px;
+          margin: 5px 10px;
+      }
+      .SectionInfo a{
+          margin-top: 30px;
+          font-size: 15px;
+      }
+      .InnerQuote{
+          width: auto;
+      }
+  }
